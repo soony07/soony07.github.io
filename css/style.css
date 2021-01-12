@@ -19,7 +19,7 @@ body {
 
 @media (max-width: 400px) {
 
-  img {
+  img.img {
     opacity: 0.5;
 }
 }
