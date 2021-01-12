@@ -17,6 +17,16 @@ body {
     color: #deb003!important;
 }
 
+@media (max-width: 500px) {
+
+  img.img {
+    -webkit-filter: opacity(.5);
+    filter: opacity(.5);
+}
+}
+
+
+
 hr.yellow{
     border-top: 1px solid #deb003;
   }
