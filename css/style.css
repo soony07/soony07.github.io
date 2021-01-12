@@ -17,9 +17,9 @@ body {
     color: #deb003!important;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 400px) {
 
-  img.img {
+  img {
     -webkit-filter: opacity(.5);
     filter: opacity(.5);
 }
