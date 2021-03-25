@@ -29,10 +29,11 @@ body {
     opacity: 0.5;
 }
 
+
 .site-navbar .site-logo a {
   font-weight: 200;
   color: #000;
-  font-size: 26px!important;
+  font-size: 23px!important;
   font-weight: bold; }
 
 }
@@ -266,7 +267,7 @@ h1, h2, h3, h4, h5, h6 {
     .site-navbar .site-logo a {
       font-weight: 200;
       color: #000;
-      font-size: 2rem;
+      font-size: 35px;
       font-weight: bold; }
   .site-navbar .site-navigation .site-menu {
     margin-bottom: 0; }
