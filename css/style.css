@@ -17,7 +17,7 @@ body {
     color: #deb003!important;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 440px) {
 
   .site-blocks-cover .img-wrap .slide img {
     position: absolute;
@@ -28,6 +28,13 @@ body {
     object-fit: cover;
     opacity: 0.5;
 }
+
+.site-navbar .site-logo a {
+  font-weight: 200;
+  color: #000;
+  font-size: 26px!important;
+  font-weight: bold; }
+
 }
 
 
