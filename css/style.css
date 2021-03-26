@@ -1030,3 +1030,13 @@ h1, h2, h3, h4, h5, h6 {
 .photo-gallery .item {
   padding-bottom:30px;
 }
+
+.cc_dialog.simple {
+    right: 0;
+    top: auto;
+    bottom: 0;
+    left: auto;
+    /* max-width: 50%; */
+    position: fixed;
+}
+}
