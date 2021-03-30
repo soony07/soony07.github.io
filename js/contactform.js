@@ -1,6 +1,6 @@
 $('#contactform').on('submit', function (e) {
     $(this).attr("disabled", true);
-    $('.contact-submit').text('Sending Message...');
+    $('.contact-submit').text('...');
     var dataString = $("#sendemail form").serialize();
     $.ajax({
         type: 'POST',
@@ -9,8 +9,8 @@ $('#contactform').on('submit', function (e) {
         success: function () {
             $('#sendemail form').hide();
             $('#sendemail').html("<div id='message'></div>");
-            $('#message').html("<h2>Thanks, We got your Message!</h2>")
-                .append("<p>We will be in touch soon.</p>");
+            $('#message').html("<h5>Wir haben Ihre Nachricht erhalten und werden sie schnellst möglichst bearbeiten!</h5>")
+                .append("<p>Danke.</p>");
         },
         error: function (data) {
             console.log('Silent failure.');
