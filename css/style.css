@@ -17,6 +17,14 @@ body {
     color: #deb003!important;
 }
 
+.green{
+  color: #28a745;
+  font-size: 1.2rem;
+}
+
+.uberuns{
+    font-size: 1.1rem;
+}
 @media (max-width: 500px) {
 
   .site-blocks-cover .img-wrap .slide img {
@@ -37,20 +45,8 @@ body {
   font-weight: bold; }
 
 }
-
-
-
-hr.yellow{
-    border-top: 1px solid #deb003;
-  }
-
-h6.yellow{
-  color:#deb003;
 }
 
-h5.yellow{
-  color:#deb003;
-}
 a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
@@ -647,6 +643,7 @@ h1, h2, h3, h4, h5, h6 {
 .site-menu-toggle .menu-text {
   position: relative;
   top: -6px;
+  font-size: 20px;
   text-transform: uppercase; }
 
 .hero-slider .owl-nav {
@@ -968,7 +965,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .map-responsive{
     overflow:hidden;
-  
+
 }
 
 
@@ -992,13 +989,13 @@ h1, h2, h3, h4, h5, h6 {
   .heading, .heading {
     margin-bottom: 3rem!important;
   }
-  
+
   .section-heading h2:before {
     width: 100%;
     bottom: -10px;
     left: 50%;
   }
-  
+
   .section-heading h2:before, .section-heading h2:after {
     content: "";
     position: absolute;
@@ -1044,6 +1041,14 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 500px) {
 
+  .green{
+    color: #28a745;
+    font-size: 0.9rem;
+  }
+
+  .uberuns{
+      font-size: 0.9rem;
+  }
 
   .carousel-caption {
     position: absolute;
@@ -1065,3 +1070,23 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.2;
 }
 }
+
+.site-footer_impressum{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: #1c9334;
+}
+.site-footer_impressum p {
+  color: #ffffff; }
+.site-footer_impressum h2, .site-footer_impressum h3, .site-footer_impressum h4, .site-footer_impressum h5 {
+  color: #fff; }
+.site-footer_impressum a {
+  color: #ffffff; }
+  .site-footer_impressum a:hover {
+    color: white; }
+.site-footer_impressum ul li {
+  margin-bottom: 10px; }
+.site-footer_impressum .footer-heading {
+  font-size: 20px;
+  color: #fff; }
