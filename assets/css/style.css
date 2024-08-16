@@ -146,6 +146,13 @@ body {
   }
 }
 
+#contact {
+  margin-left: 5px;
+  padding: 45px 30px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
 .main-white-button a {
   font-size: 13px;
   color: #fb5849;
