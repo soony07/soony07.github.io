@@ -1,0 +1,177 @@
+/*My CSS*/
+
+
+.map-responsive{
+    overflow:hidden;
+
+}
+
+li {
+  padding: 0;
+  margin: 0;
+  list-style: disc;
+}
+.bg-primary {
+    background-color: #ffffff!important;
+}
+.site-navbar-wrap a {
+    color: #1c9334!important;
+}
+
+.background-header {
+  background-color: #fff;
+  height: 200px!important;
+  position: fixed !important;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.15) !important;
+/*Heading Style One*/
+}
+
+  .section-heading h2 {
+    position: relative;
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+  }
+  .heading, .heading {
+    margin-bottom: 3rem!important;
+  }
+
+  .section-heading h2:before {
+    width: 100%;
+    bottom: -10px;
+    left: 50%;
+  }
+
+  .section-heading h2:before, .section-heading h2:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 1px;
+    background: #000;
+    transform: translateX(-50%);
+  }
+
+
+
+  .carousel-item {
+    height: 65vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .container{
+    margin-top:300px;
+  }
+
+
+
+  .carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 100px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.display-4 {
+  font-size: 3.5rem;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  background:#28a745;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+ul{
+    margin-left: 30px;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    transition: transform 0.3s ease;
+    z-index: 1000; /* Ensures the header stays on top */
+}
+
+header a img {
+    max-height: 200px;
+    height: auto;
+    width: auto;
+}
+
+@media (max-width: 500px) {
+
+  .green{
+    color: #28a745;
+    font-size: 0.9rem;
+  }
+
+  .uberuns{
+      font-size: 0.9rem;
+  }
+
+  .carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 100px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+  .display-4 {
+    font-size: 2.5rem;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    background: #28a745;
+    font-weight: 100;
+    line-height: 1.2;
+}
+}
+
+.site-footer_impressum{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: #1c9334;
+}
+.site-footer_impressum p {
+  color: #ffffff; }
+.site-footer_impressum h2, .site-footer_impressum h3, .site-footer_impressum h4, .site-footer_impressum h5 {
+  color: #fff; }
+.site-footer_impressum a {
+  color: #ffffff; }
+  .site-footer_impressum a:hover {
+    color: white; }
+.site-footer_impressum ul li {
+  margin-bottom: 10px; }
+.site-footer_impressum .footer-heading {
+  font-size: 20px;
+  color: #fff; }
