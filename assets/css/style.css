@@ -1731,3 +1731,73 @@ responsive
     opacity: 0;
   }
 }
+
+.menu-container {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  transition: background-color 0.3s, color 0.3s;
+  max-width: 1200px;
+  margin: auto;
+}
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+}
+.column {
+  flex: 1;
+  min-width: 300px;
+  padding: 20px;
+}
+h2 {
+  text-align: left;
+  border-bottom: 2px solid currentColor;
+}
+.menu-section {
+  margin-bottom: 20px;
+}
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+}
+.price {
+  margin-left: 10px;
+}
+.toggle-theme {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  background-color: #333;
+  color: white;
+  border-radius: 5px;
+}
+.light-theme {
+  background-color: white;
+  color: black;
+}
+.dark-theme {
+  background-color: #121212;
+  color: white;
+}
+.opening-hours {
+  margin: 40px 0;
+  padding: 20px;
+  border: 2px solid currentColor;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.opening-hours h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.hours {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+}
